@@ -1,1 +1,1 @@
-simple merge subtitles using mkvmerge.exe
+merging subtitles subtitles using mkvmerge.exe
