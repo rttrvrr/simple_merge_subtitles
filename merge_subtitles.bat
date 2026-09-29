@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 :: ==========================================================
 :: CONFIGURATION & PATHS (Adjust these as needed)
 :: ==========================================================
-set "MKVMERGE_PATH=.\mkvmerge.exe"
+set "MKVMERGE_PATH=C:\Program Files\MKVToolNix\mkvmerge.exe"
 set "OUTPUT_DIR=D:\Videos\tmp"
 :: ==========================================================
 
