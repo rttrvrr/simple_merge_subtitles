@@ -66,7 +66,7 @@ for %%F in (*.mkv) do (
     if exist "!FILENAME!.ass" (
         echo Processing: "!FILENAME!"
         
-        "%MKVMERGE_PATH%" -o "%OUTPUT_DIR%\!FILENAME!.mkv" "%%F" --language 0:ind --default-track-flag 0:yes "!FILENAME!.ass"
+        "%MKVMERGE_PATH%" -o "%OUTPUT_DIR%\!FILENAME!.mkv" "%%F" --language 0:ind --track-name "0:Indonesian" --default-track-flag 0:yes "!FILENAME!.ass"
         
         echo --------------------------------------------------------
     ) else (
