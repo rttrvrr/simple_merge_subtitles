@@ -1,1 +1,1 @@
-merging subtitles subtitles using mkvmerge.exe
+Easily merge subtitles with MKV files using mkvmerge.exe
